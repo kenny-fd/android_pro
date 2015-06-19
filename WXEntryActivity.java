@@ -59,13 +59,6 @@ public class WXEntryActivity extends Activity implements IWXAPIEventHandler{
             result = ShareCallback.SHARE_FAILED;
             break;
         }
-        
-        AbstractSharePlatform wxPlatform = SharePlatformFactory.sLastUsedWXSharePlatform;
-        if(wxPlatform != null) {
-            wxPlatform.onActivityResult(0, result, null);
-        }
-        
-        finish();
     }
 
 }
