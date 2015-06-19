@@ -23,7 +23,6 @@ public class WXEntryActivity extends Activity implements IWXAPIEventHandler{
         super.onCreate(savedInstanceState);
         
         setContentView(R.layout.page_loading);
-        mWXAPI = WXAPIFactory.createWXAPI(this, "warthog", false);
         Intent intent = getIntent();
         mWXAPI.handleIntent(intent, this);
     }
