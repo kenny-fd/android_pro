@@ -34,13 +34,6 @@ public class WXEntryActivity extends Activity implements IWXAPIEventHandler{
         mWXAPI.handleIntent(intent, this);
     }
 
-
-    @Override
-    public void onReq(BaseReq arg0) {
-        // 微信发送请求到第三方应用时，会回调到该方法
-    }
-
-
     @Override
     public void onResp(BaseResp resp) {
         // 第三方应用发送到微信的请求处理后的响应结果，会回调到该方法
