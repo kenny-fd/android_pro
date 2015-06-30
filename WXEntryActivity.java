@@ -38,7 +38,7 @@ public class WXEntryActivity extends Activity implements IWXAPIEventHandler{
     public void onResp(BaseResp resp) {
         // 第三方应用发送到微信的请求处理后的响应结果，会回调到该方法
         case BaseResp.ErrCode.ERR_OK:
-            result = ShareCallback.SHARE_SUCCESS;
+            result = ShareCallback.SHARE_SUCCESS;15修改
             break;
         case BaseResp.ErrCode.ERR_USER_CANCEL:
             result = ShareCallback.SHARE_CANCEL;
