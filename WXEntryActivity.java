@@ -1,4 +1,4 @@
-package cn.warthog.playercommunity.wxapi;
+﻿package cn.warthog.playercommunity.wxapi;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -22,7 +22,7 @@ public class WXEntryActivity extends Activity implements IWXAPIEventHandler{
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         
-        setContentView(R.layout.page_loading);
+        setContentView(R.layout.page_loading);14修改
         Intent intent = getIntent();
         mWXAPI.handleIntent(intent, this);
     }
