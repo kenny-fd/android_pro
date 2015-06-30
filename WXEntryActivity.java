@@ -29,7 +29,7 @@ public class WXEntryActivity extends Activity implements IWXAPIEventHandler{
 
 
     @Override
-    protected void onNewIntent(Intent intent) {
+    protected void onNewIntent(Intent intent) {14修改
         super.onNewIntent(intent);
         mWXAPI.handleIntent(intent, this);
     }
