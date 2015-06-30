@@ -41,7 +41,7 @@ public class WXEntryActivity extends Activity implements IWXAPIEventHandler{
             result = ShareCallback.SHARE_SUCCESS;15修改
             break;
         case BaseResp.ErrCode.ERR_USER_CANCEL:
-            result = ShareCallback.SHARE_CANCEL;
+            result = ShareCallback.SHARE_CANCEL;15修改
             break;
         case BaseResp.ErrCode.ERR_AUTH_DENIED:
             result = ShareCallback.SHARE_AUTH_DENIED;
