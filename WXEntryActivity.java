@@ -19,7 +19,7 @@ public class WXEntryActivity extends Activity implements IWXAPIEventHandler{
     private IWXAPI mWXAPI;
     
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState) {testing1 修改
         super.onCreate(savedInstanceState);
         
         setContentView(R.layout.page_loading);14修改
